@@ -4,12 +4,12 @@ public class Buyer {
 
     private final String name;
     private final String phone;
-    private final String adress;
+    private final String address;
 
-    public Buyer (String name, String phone, String adress){
+    public Buyer (String name, String phone, String address){
         this.name = name;
         this.phone = phone;
-        this.adress = adress;
+        this.address = address;
     }
 
     public String getName() {
@@ -20,7 +20,7 @@ public class Buyer {
         return phone;
     }
 
-    public String getAdress() {
-        return adress;
+    public String getAddress() {
+        return address;
     }
 }

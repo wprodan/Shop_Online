@@ -12,7 +12,7 @@ public class AppView {
         String name = scanner.nextLine().trim();
         System.out.print("Enter buyer phone: ");
         String phone = scanner.nextLine().trim();
-        System.out.print("Enter product quantity, pcs.: ");
+        System.out.print("Enter buyer address: \n(if You dont need delivery Enter no)");
         String address = scanner.nextLine().trim();
         System.out.print("Enter product quantity, pcs.: ");
         String quantity = scanner.nextLine().trim();
