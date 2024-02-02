@@ -10,10 +10,10 @@ public class Purchase {
         this.price = price;
     }
 
-    public String getQUota() {
+    public int getQuota() {
         return quota;
     }
-    public String getPrice() {
+    public double getPrice() {
         return price;
     }
 }
