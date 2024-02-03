@@ -1,9 +1,10 @@
 package app.model.impl;
 
 import app.entity.Purchase;
+import app.model.AppModel;
 import app.model.impl.AppBaseModel;
 
-public class AppDeliveryModel extends AppBaseModel {
+public class AppDeliveryModel implements AppModel {
 
     double deliveryRate = 5;
 
